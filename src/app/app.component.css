@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: #111111;
+}
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.navbar li a:hover{
+    border-bottom: 4px solid #b18140;
+}

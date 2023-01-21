@@ -1,0 +1,11 @@
+<div class="container">
+    <p class="title">Campeones</p>
+    <ul>
+        <li *ngFor="let campeon of list">
+            <p class="paragraph">{{campeon.name}} / {{campeon.rol}}</p>
+            <div class="picture">
+                <img [src]="campeon.img">
+            </div>
+        </li>
+    </ul>
+</div>

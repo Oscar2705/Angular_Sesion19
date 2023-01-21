@@ -1,0 +1,18 @@
+
+<div class="container w-50 mx-auto mt-4 p-3 border border-info text-center text-light">
+    <p class="h2 border-bottom border-danger pb-4">Escoje tu Rol:</p>
+    <div class="contenido d-flex justify-content-around">
+        <p class="mt-4 mb-4 h5 option">Soporte</p>
+        <p class="mt-4 mb-4 h5 option">Tirador</p>
+        <p class="mt-4 mb-4 h5 option">Asesino</p>
+        <p class="mt-4 mb-4 h5 option">Mago</p>
+        <p class="mt-4 mb-4 h5 option">Tanque</p>
+
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Rol de tu campeon" #id>
+    </div>
+    <button type="button" (click)="buscarHero(id.value)" class="btn btn-success">Buscar</button>
+    <p class="text-light my-3">Nombre: <span>{{nombre?.name}}</span></p>
+    <img [src]="nombre.img">
+</div>

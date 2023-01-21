@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url(styles/reset.css);
+ *{
+    font-family: 'Roboto', sans-serif;
+ }
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1365795/pexels-photo-1365795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+}
+.title{
+    font-size: 2.7rem;
+    color: #b18140;
+    margin: 2rem 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.paragraph{
+    margin: 1.7rem 0;
+    font-size: 2rem;   
+    color: #fff;
+}
+
+.picture{
+    width: 50%;
+    margin: 0 auto;
+}
+img{
+   max-width: 100%;
+   object-fit: cover;
+}
